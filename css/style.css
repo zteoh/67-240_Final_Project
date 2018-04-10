@@ -31,7 +31,7 @@ body, html {
 }
 
 .navbar-brand img {
-    width: 400px
+    width: 300px
 }
 .navbar-brand-small img {
     display: block;
@@ -154,13 +154,9 @@ nav li a::after {
 }
 
 .btn {
-    border: #ADD8E6;;
-    background-color: #ADD8E6;
+    border-radius: 0px;
 }
 
-.btn:hover {
-    background-color: #DF756C;
-}
 
 nav li a:hover::after {
     width: 100%;
@@ -171,6 +167,9 @@ footer p {
     font-size: 8pt;
         bottom: 0;
 
+}
+.card {
+    border-radius: 0;
 }
 
 footer {
@@ -191,7 +190,7 @@ h2 {
     height: auto;
 }
 header .carousel-item {
-  height: 60vh;
+  height: 100vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -225,7 +224,6 @@ nav {
 
 .card-footer {
     background-color: white;
-    border-top: none;
 }
 .card {
     margin: 10px 0px;
