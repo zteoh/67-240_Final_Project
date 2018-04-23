@@ -1,210 +1,284 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <link rel="icon" href="images/icon.png">
-		<title>AI, Ethics, & Society</title>
-<!--		<link rel="stylesheet" type="text/css" href="css/style.css" />-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="js/script.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <meta name="description" content="">
-        <meta name="author" content="Margret Williams">
+		<link rel="icon" href="images/icon.png">
+		<title>CMU Dining Locations</title>
+		<!--		<link rel="stylesheet" type="text/css" href="css/style.css" />-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="js/script.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta name="description" content="">
+		<meta name="author" content="Margret Williams">
 	</head>
 	<body>
-        
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="index.html"><img class="" src="images/CMU_Wordmarks/CMU_Web_Logos-Horizontal/CMU_Logo_Horiz_Red.png"></a>
 
-<!--             <a class="navbar-brand" href="index.html"><img class="d-none d-lg-block d-lg-none" src="images/CMU_Wordmarks/CMU_Web_Logos-Horizontal/CMU_Logo_Horiz_Red.png"></a>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<a class="navbar-brand" href="index.html"><img class="" src="images/CMU_Wordmarks/CMU_Web_Logos-Horizontal/CMU_Logo_Horiz_Red.png"></a>
 
-            <a class="navbar-brand-small" href="index.html"><img class="d-none d-block d-lg-none" src="images/CMU_Wordmarks/CMU_Web_Logos-Stacked/CMU_Logo_Stack_Red.png"></a> -->
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">   
-                    <li class="nav-item"><a class="nav-link" href="">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">link</a></li>
-                </ul>
-            </div>
-        </nav>         
+			<!--             <a class="navbar-brand" href="index.html"><img class="d-none d-lg-block d-lg-none" src="images/CMU_Wordmarks/CMU_Web_Logos-Horizontal/CMU_Logo_Horiz_Red.png"></a>
 
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<a class="navbar-brand-small" href="index.html"><img class="d-none d-block d-lg-none" src="images/CMU_Wordmarks/CMU_Web_Logos-Stacked/CMU_Logo_Stack_Red.png"></a> -->
 
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url(images/Indian_Spices.jpg)">
-            <div class="carousel-caption block">
-              <h3>Welcome to Carnegie Mellon Dining Services</h3>
-                <p><a href=""></a></p>
-                <button type="button" class="btn btn-outline-light">see our locations</button>
-            </div>
-          </div>            
-        </div>
-        
-      </div>
-        </header>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">   
+					<li class="nav-item"><a class="nav-link" href="https://get.cbord.com/cmu/full/prelogin.php">GET Funds</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://app.mynutritioncalculator.net/cmu/">Nutrition Calculator</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>         
+
+		<header>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+				<div class="carousel-inner" role="listbox">
+					<!-- Slide One - Set the background image for this slide in the line below -->
+					<div class="carousel-item active" style="background-image: url(images/Indian_Spices.jpg)">
+						<div class="carousel-caption block">
+							<h3>Welcome to Carnegie Mellon Dining Services</h3>
+							<p><a href=""></a></p>
+							<a href="#locations"><button type="button" class="btn btn-outline-light">see our locations</button> </a>
+						</div>
+					</div>            
+				</div>
+
+			</div>
+		</header>
 
 
-<div class="container col-12">
-<div class="row">
-  <div class="col-3"></div>
+		<div id="locations">
+			<div class="container col-12">
+				<div class="row">
+					<div class="col-3"></div>
 
 
-<div class="col-9">
+					<div class="col-9">
 
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#grid" role="tab" aria-controls="home" aria-selected="true">Grid</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#list" role="tab" aria-controls="profile" aria-selected="false">List</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#map" role="tab" aria-controls="contact" aria-selected="false">Map</a>
-  </li>
-</ul>
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#grid" role="tab" aria-controls="home" aria-selected="true">Grid</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#list" role="tab" aria-controls="profile" aria-selected="false">List</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="contact-tab" data-toggle="tab" href="#map" role="tab" aria-controls="contact" aria-selected="false">Map</a>
+							</li>
+						</ul>
 
-<div class="tab-content" id="myTabContent">
+						<div class="tab-content" id="myTabContent">
 
-  <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+							<div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
 
-    <div class="card-group">
-      <div class="row">
+								<div class="card-group">
+									<div class="row">
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/abp-1.jpg" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Au Bon Pain</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text"><strong>Location: </strong> Cohon Center, Second Floor <br> <strong>Today's Hours: </strong> 7:00AM - 2:00AM</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Card title</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Card title</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Card title</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Card title</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card open">
-            <img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-            </div>
-            <div class="card-body">
-              <p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted"></small>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="card open">
+												<img class="card-img-top" src="images/Rectangle.png" alt="Card image cap">
+												<div class="card-img-overlay">
+													<h5 class="card-title">Card title</h5>
+												</div>
+												<div class="card-body">
+													<p class="card-text">This is a n to additional content. This content is a little bit longer.</p>
+												</div>
+												<div class="card-footer">
+													<small class="text-muted"></small>
+												</div>
+											</div>
+										</div>
 
-  </div>
+									</div>
+								</div>
 
-  <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">...</div>
-  <div class="tab-pane fade" id="map" role="tabpanel" aria-labelledby="map-tab">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6072.897836350835!2d-79.9470897578676!3d40.44320002951665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88716b461fc4daf4!2sCarnegie+Mellon+University!5e0!3m2!1sen!2sus!4v1523387512687" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
+							</div>
 
-</div>
+							<div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+								<div class="container col-12">
 
-</div>
-</div>
-</div>
-        
-            
+<!--
+									<div id="accordion">
+										<div class="card">
+											<div class="card-header" id="headingOne">
+												<h5 class="mb-0">
+													<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														Au Bon Pain
+														<span class="badge badge-warning badge-pill">V</span>
+													</button>
+												</h5>
+											</div>
 
-            
+											<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+												<div class="card-body">
+													Info
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-header" id="headingTwo">
+												<h5 class="mb-0">
+													<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														City Grill
+														<span class="badge badge-secondary badge-pill">GF</span>
+													</button>
+												</h5>
+											</div>
+											<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+												<div class="card-body">
+													Info
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-header" id="headingThree">
+												<h5 class="mb-0">
+													<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+														The Exchange
+													</button>
+												</h5>
+											</div>
+											<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+												<div class="card-body">
+													Info
+												</div>
+											</div>
+										</div>
+									</div>
+-->
 
-         
-        <footer class="py-5">
-      <div class="container">
-        <p class="m-0 text-center">Copyright &copy; Margret Williams 2018<br />
-      </div>
-      <!-- /.container -->
-    </footer>
-            
-             
-    </body>
+									<ul class="list-group">
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Au Bon Pain
+											<span class="badge badge-success badge-pill">V</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											City Grill
+											<span class="badge badge-secondary badge-pill">GF</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											The Exchange
+											<span class="badge badge-primary badge-pill">DF</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											La Prima Espresso
+											<span class="badge badge-warning badge-pill">V</span>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+
+							<div class="tab-pane fade" id="map" role="tabpanel" aria-labelledby="map-tab">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6072.897836350835!2d-79.9470897578676!3d40.44320002951665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88716b461fc4daf4!2sCarnegie+Mellon+University!5e0!3m2!1sen!2sus!4v1523387512687" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<footer class="py-5">
+			<div class="container">
+				<p class="m-0 text-center">Copyright &copy; Margret Williams 2018<br />
+			</div>
+			<!-- /.container -->
+		</footer>
+
+
+	</body>
 </html>
 
 
